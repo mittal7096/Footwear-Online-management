@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cart {
+    width: 280px;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cart:hover {
+    transform: scale(1.05);
+}
+
+.cart img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: auto;
+}
+
+.cart-under {
+    text-align: justify;
+    margin-left: auto;
+    text-align: center; /* Center the content */
+}
+
+.cat2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 16px;
+    font-weight: bold;
+    text-align: center; /* Center the price */
+}
+
+.cat3 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cat3:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
